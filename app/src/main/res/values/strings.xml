@@ -1,0 +1,83 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Game of Thrones Quiz</string>
+
+    <!--Title of the quiz-->
+    <string name="introduction">Can you answer these 6 quiz questions correctly?</string>
+
+    <!--First question.-->
+    <string name="firstQuestion">1. What is the surname given to bastards born in Dorne?</string>
+    <!--First question first option-->
+    <string name="firstOptionOfQuestionOne">Rivers</string>
+    <!--First question second option-->
+    <string name="secondOptionOfQuestionOne">Waters</string>
+    <!--First question third option-->
+    <string name="thirdOptionOfQuestionOne">Sand</string>
+    <!--First question fourth option-->
+    <string name="fourthOptionOfQuestionOne">Stone</string>
+
+
+    <!--Second question.-->
+    <string name="secondQuestion">2. What was the name of the woman who kept telling Jon Snow he knows nothing?</string>
+    <!--Second question first option-->
+    <string name="firstOptionOfQuestionTwo">Ygritte</string>
+    <!--Second question second option-->
+    <string name="secondOptionOfQuestionTwo">Catleyn </string>
+
+
+    <!--Third question-->
+    <string name="thirdQuestion">3. How many times has Sansa Stark been married?</string>
+    <!--Text in EditText view-->
+    <string name="userInput">0</string>
+    <!--Correct answer of third question-->
+    <string name="thirdQuestionAnswer">2</string>
+
+
+    <!--Fourth question.-->
+    <string name="fourthQuestion">4. In which city does Arya Stark train to become a Faceless Man?</string>
+    <!--Fourth question first option-->
+    <string name="firstOptionOfQuestionFour">Astapor</string>
+    <!--Fourth question second option-->
+    <string name="secondOptionOfQuestionFour">Meereen</string>
+    <!--Fourth question third option-->
+    <string name="thirdOptionOfQuestionFour">Braavos</string>
+    <!--Fourth question fourth option-->
+    <string name="fourthOptionOfQuestionFour">Pentos</string>
+
+
+    <!--Fifth question-->
+    <string name="fifthQuestion">5. Who died at The Red Wedding?</string>
+    <!--Fifth question first option-->
+    <string name="firstOptionOfQuestionFive">Talisa Stark</string>
+    <!--Fifth question second option-->
+    <string name="secondOptionOfQuestionFive">Robb Stark</string>
+    <!--Fifth question third option-->
+    <string name="thirdOptionOfQuestionFive">Joffrey Baratheon </string>
+    <!--Fifth question fourth option-->
+    <string name="fourthOptionOfQuestionFive">Catelyn Stark</string>
+
+
+    <!--Sixth question-->
+    <string name="sixthQuestion">6. Daenerys dragons are called: Drogon, Viserion and ? </string>
+    <!--Sixth question frist option-->
+    <string name="firstOptionOfQuestionSix">Rheagal</string>
+    <!--Sixth question second option-->
+    <string name="secondOptionOfQuestionSix">Aegon</string>
+    <!--Sixth question third option-->
+    <string name="thirdOptionOfQuestionSix">Jorah</string>
+    <!--Sixth question fourth option-->
+    <string name="fourthOptionOfQuestionSix">Smaug</string>
+
+    <!--Toast message if all the answers are correct-->
+    <string name="toastMessageCorrect">Awesome! All your answers are correct.</string>
+    <!--Toast message if number of correct answers is more than one-->
+    <string name="toastMessageMoreThanOne">Out of <xliff:g id="number_of_questions">%d</xliff:g> questions,
+    <xliff:g id="number_of_correct_answers">%d</xliff:g> are correct.</string>
+    <!--Toast message if number of correct answers is equal to one-->
+    <string name="toastMessageEqualToOne">Out of <xliff:g id="number_of_questions">%d</xliff:g> questions
+        , only <xliff:g id="number_of_correct_answers">%d</xliff:g> is correct.</string>
+    <!--Toast message if there are no correct answers.-->
+    <string name="toastMessageZero">None of the answers are correct, try again!</string>
+
+    <!--Text of button-->
+    <string name="buttonCheck">Check</string>
+</resources>
